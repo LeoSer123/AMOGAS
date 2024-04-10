@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Games</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Random Games</h1>
+
+    <div class="games-container">
+        <div class="game-section">
+            <h2>Tic Tac Toe</h2>
+            <div id="ticTacToeBoard" class="tic-tac-toe-board">
+                <div class="tic-tac-toe-cell"></div>
+                <div class="tic-tac-toe-cell"></div>
+                <div class="tic-tac-toe-cell"></div>
+                <div class="tic-tac-toe-cell"></div>
+                <div class="tic-tac-toe-cell"></div>
+                <div class="tic-tac-toe-cell"></div>
+                <div class="tic-tac-toe-cell"></div>
+                <div class="tic-tac-toe-cell"></div>
+                <div class="tic-tac-toe-cell"></div>
+            </div>
+        </div>
+
+        <div class="game-section">
+            <h2>Rolling Dice</h2>
+            <button id="rollDiceBtn">Roll the Dice</button>
+            <p id="diceResult"></p>
+        </div>
+
+        <div class="game-section">
+            <h2>Number Guessing Game</h2>
+            <input type="number" id="guessInput" placeholder="Enter a number">
+            <button id="guessBtn">Guess</button>
+            <p id="guessResult"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Made by Leo Ser</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
